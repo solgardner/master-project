@@ -5,7 +5,7 @@ All three networks contained two hidden layers and relu activation functions, ha
 
   For the next two means of analysis, I needed correlation. The more correlated my two axis were, the more interesting and valuable the results. To do this, I used the pandas builtin corrilation function. Unfortunatly, this did not return any great results (Close to |1|), but I made do with two values, *social_upvote_score* and *subreddit.* These had a correlation value of roughly 0.2.
 
-  Firstly, I built the K-Means Clustering algorithim, which groups data into K different Clusters. First, it chooses K random points, than moves them iterativly into the best possible locations. This returned less than ideal values, as the data wasn't great, but the best data is shown in [KMeans.png](https://).
+  Firstly, I built the K-Means Clustering algorithim, which groups data into K different Clusters. First, it chooses K random points, than moves them iterativly into the best possible locations. This returned less than ideal values, as the data wasn't great, but the best data is shown [here](https://raw.githubusercontent.com/solgardner/master-project/main/K-Means%20Results.png).
 
 
 Finally, I built the K-Nearest Neighbors algorithim. This algorithm takes a data point and compares it to the K nearest neigbors, catagorizing with whatever has the majority. Again, this was not an ideal value, with an accuracy score of 0.27692307692307694
